@@ -1,7 +1,10 @@
+//Hola profesor, no se si le pasara lo mismo pero en la linea 14 da un error que creo que es un error de mi VSC no se si se muestre a usted tambien, comprobe el codigo en tlf y todo va bien
+
 #include <iostream>
 using namespace std;
 
 int main() {
+    int valor1 = 0;
     int f, m;
     cout << "Ingrese el numero de filas de la matriz\n";
     cin >> f;
@@ -14,7 +17,6 @@ int main() {
     cout << "Que valores le quiere dar a la matriz\n";
     for(int f1 = 0; f1 < f; f1++) {
         for(int c1 = 0; c1 < m; c1++) {
-            int valor1 = 0;
             valor1++;
             cout << "Valor " << valor1 << ": ";
             cin >> matriz1[f1][c1];
