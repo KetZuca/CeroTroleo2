@@ -9,6 +9,7 @@ int main() {
     cout << "Ingrese el angulo de la linea\n";
     cin >> angulo;
 
+    //If y else concatenados para comprobar cada una de las posibilidades que puede existir.
     if(angulo < 0 || angulo > 360) { //Para que evitar entradas que no son correctas
         cout << "El angulo no puede ser negativo o ser mayor de 360 grados.\n";
     } else if(angulo == 0 || angulo == 360) { //Como el angulo de 0 y 360 es lo mismo sucede la misma accion

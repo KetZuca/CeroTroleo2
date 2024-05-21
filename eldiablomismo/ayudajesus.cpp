@@ -18,6 +18,7 @@ int main() {
     cout << "Introduzca el valor de Sigma\n";
     cin >> sigma;
 
+    //Formula de la curva normal en forma de campana escrita de forma lineal
     opcompleta = exp(-0.5 * pow((equis - mu) / sigma, 2)) / (sigma * sqrt(2 * pi));
 
     cout << "El resultado de la ecuacion es:\ny = " << opcompleta << endl;
